@@ -7,4 +7,4 @@ class PG:
  self.owner = owner
  
  pg1 = PG(Rayalaseema,60,Reddy)
- print(f"i live in {pg1.name} which is owned by {pg1.owner}. It has {pg1.noofrooms}")
+ print(f"i live in {pg1.name} which is owned by {pg1.owner}. It has {pg1.noofrooms} rooms")
