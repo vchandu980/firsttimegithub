@@ -1,0 +1,100 @@
+<!Doctype html>
+<html>
+<head>
+<title>IMDb Movies page</title>
+</head>
+<style>
+body{
+background-image:url('C:\Users\ct0t1868\Desktop\plain.jpg');
+}
+table,th,td{
+border: 2px solid black;
+border-collapse:collapse;
+
+}
+td,th{
+padding:10px;
+}
+table{
+width:100%;
+}
+caption{
+font-size:20px;
+color:#686573;
+}
+</style>
+<body>
+
+<table>
+<caption>IMDb Movies</caption>
+<tr>
+<th>Title</th>
+<th>Year Of Release</th>
+<th>IMDb Rating</th>
+<th colspan="3">Lead Cast</th>
+</tr>
+<tr>
+<td>The Departed</td>
+<td>2008</td>
+<td>8.3</td>
+<td>Leo</td>
+<td>Matt</td>
+
+</tr>
+<tr>
+<td>Spies in Disguise</td>
+<td>2019</td>
+<td>6.1</td>
+<td>Will</td>
+<td>Tom</td>
+</tr>
+<tr>
+<td>Taxi Driver</td>
+<td>1971</td>
+<td>7.8</td>
+<td>Robert</td>
+<td>Martin</td>
+</tr>
+<tr>
+<td>Gravity</td>
+<td>2012</td>
+<td>8.3</td>
+<td>Sandra</td>
+<td>George</td>
+</tr>
+<tr>
+<td>Jumanji</td>
+<td>2019</td>
+<td>7.0</td>
+<td>Dwayne</td>
+<td>JBlack</td>
+</tr>
+<tr>
+<td>A beautiful day in the Neighbourhood</td>
+<td>2020</td>
+<td>8.8</td>
+<td>Hanks</td>
+<td>Chris</td>
+</tr>
+</table>
+<table>
+<caption>Actors Contacts</caption>
+<tr>
+<th>ActorName</th>
+<td>Leonardo</td>
+<td>Will smith</td>
+</tr>
+<tr>
+<th rowspan="2">Telephone</th>
+<td>9806875690</td>
+<td>0698790887</td>
+</tr>
+<tr>
+<td>8657860097</td>
+<td>5789690789</td>
+
+
+</tr>
+</table>
+</body>
+</html>
