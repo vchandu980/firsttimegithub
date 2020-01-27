@@ -1,0 +1,10 @@
+﻿<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>FoodOnWheels</title>
+</head>
+<body>
+</body>
+		
+</html>
