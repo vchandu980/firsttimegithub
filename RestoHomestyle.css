@@ -1,0 +1,32 @@
+body{
+	margin:10px;
+	
+}
+.hometitle{
+	background-color:Orange;
+	color:white;
+	
+	margin:0px;
+	padding:10px;
+}
+.homeheader{
+	font-style:"sans-serif";
+	width:
+}
+.headernav1{
+	width:18%;
+	padding:10px;
+	
+	float:left;
+	background-color:black;
+	color:white;
+	display:block;
+	
+}
+.locationdd{
+	background-color:grey;
+	color:white;
+}
+.rescardcontainer{
+	
+}
