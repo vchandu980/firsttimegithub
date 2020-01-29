@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8>" lang="en">
+    <title>SignUppage</title>
+    <style>
+        .signupform {
+            border: 2px solid black;
+            width: 30%;
+            height: 500px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 10px;
+
+        }
+
+        input[type=text] ,input[type=text],input[type=email],input[type=tel],input[type=password]{
+            padding: 10px 10px;
+            margin:auto;
+            width:80%;
+            border:1px solid grey;
+            border-radius:5px;
+
+
+        }
+        .firstname, .lastname,.email,.mobilenumber,.password,.confirmpassword{
+            width:100%;
+            height:auto;
+            display:inline-flex;
+            align-items:center;
+            margin-bottom:15px;
+
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="signupform">
+        <div>
+            <h2 style="text-align:center;font-family:monospace;">New to Resto!<br><br>Signup and get Exciting Benefits</h2>
+        </div>
+        <div>
+            <form action="homepage.html">
+                <div class="firstname">
+                    <input type="text" name="firstname" placeholder="First name">
+                </div>
+                <div class="lastname">
+                    <input type="text" name="lastname" placeholder="Last name">
+                </div>
+                <div class="email">
+                    <input type="email" name="emailid" placeholder="Email..">
+                </div>
+                <div class="mobilenumber">
+                    <input type="tel" name="MobileNo" placeholder="Mobile no..">
+                </div>
+                <div class="password">
+                    <input type="password" name="password" placeholder="password">
+                </div>
+                <div class="confirmpassword">
+                    <input type="password" name="password" placeholder="Confirm password">
+                </div><br><br>
+                <div style="width:100%;display:inline-flex;align-items:center;">
+                    <div style="width:60%">
+                        <a href="loginpage.html" style="color:white;text-decoration:none;margin-left:50px;padding:10px;background-color:midnightblue;border:1px solid midnightblue;border-radius:5px;">Login instead!</a>
+                    </div>
+                    <div>
+                        <a href="home.html" style="color:white;text-decoration:none;margin-left:20px;padding:10px;background-color:midnightblue;border:1px solid midnightblue;border-radius:5px;">Sign Up</a>
+                    </div>
+                </div>
+                
+                
+            </form>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
