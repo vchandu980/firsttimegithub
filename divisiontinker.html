@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" lang="en">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>divisiontinker</title>
+    <style>
+        * {
+            border-sizing: borderbox;
+        }
+
+        .inner {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        @media screen and (max-width: 500px) {
+            .inner {
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .inner {
+                width: 70%;
+                height:80%;
+            }
+        }
+        .inner2 {
+            width: 50%;
+            float: left
+        }
+
+        img {
+            max-width: 70%;
+            max-height: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to division tutorial</h1>
+    <div class="outer" style="background-color:green">
+        <div class="inner" style="background-color:red">
+            <a href="https://www.bookmyshow.com"><div class="inner2"><img src="movies.jpg" alt="moviesimg">
+            </div></a>
+            <div class="inner2">
+                <h2>East</h2>
+                <p>This is east</p>
+            </div>
+        </div>
+        <div class="inner" style="background-color:yellow">
+            <h2>Center</h2>
+            <p>i am at the center</p>
+        </div>
+        <div class="inner" style="background-color:violet">
+            <h2>West</h2>
+            <p>here we to west</p>
+        </div>
+    </div>
+</body>
+
+</html>
